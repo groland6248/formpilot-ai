@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FormPilot AI</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="mark">FP</div>
+      <div>
+        <div class="name">FormPilot AI</div>
+        <div class="tag">Safe, explainable autofill</div>
+      </div>
+    </div>
+    <button id="scanBtn" class="btn primary">Scan Page</button>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h3>Review & Approve</h3>
+      <p class="muted">Sensitive fields are always blocked. Unknown fields are skipped by default.</p>
+
+      <div class="actions">
+        <button id="approveSafeBtn" class="btn">Approve all safe</button>
+        <button id="clearBtn" class="btn ghost">Clear</button>
+      </div>
+
+      <div id="list" class="list"></div>
+
+      <button id="applyBtn" class="btn primary full" disabled>Apply Approved Fills</button>
+      <div id="status" class="status"></div>
+    </section>
+  </main>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
