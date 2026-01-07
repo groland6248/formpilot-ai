@@ -57,3 +57,9 @@ Key files:
 
 1. Clone or download this repository
 2. Open Chrome and navigate to: chrome://extensions/
+3. 3. Enable **Developer mode** (top right)
+4. Click **Load unpacked**
+5. Select the root folder of this repository
+6. The FormPilot AI extension will appear in your toolbar
+7. Navigate to any form-heavy webpage and click the extension icon to use it
+
